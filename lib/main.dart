@@ -15,7 +15,6 @@ class TestingApp extends StatelessWidget {
       create: (context) => Favorites(),
       child: MaterialApp(
         title: 'Testing Sample',
-        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
